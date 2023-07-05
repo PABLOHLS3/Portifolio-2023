@@ -1,0 +1,54 @@
+@import "./colors";
+
+.nav-bar{
+ 
+    width: 100%;
+    padding: 4px 5%;
+    background-color: rgba(6, 9, 15, 0.4);
+    backdrop-filter: blur(6px);
+    position: fixed;
+    z-index: 990;
+     
+  }
+  
+  
+  .menu-home{
+     
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+  }
+  
+  ul{
+      display: flex;
+    
+      
+  
+  
+      li{
+          list-style: none;
+          margin-right: 32px;
+         
+        
+  
+      }
+  
+      a{
+          text-decoration: none;
+          color: #9EA0A3;
+          font-weight: 500;
+          transition: 0.7s ease;
+  
+          &:hover{
+              color: $azul-primaria;
+          }
+          
+      }
+  
+     
+      
+  }
+  
+  .home{
+      color: $azul-primaria;
+  }

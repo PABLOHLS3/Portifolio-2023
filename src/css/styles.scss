@@ -1,6 +1,18 @@
 @import '~bootstrap/scss/bootstrap';
+@import "./sass/colors";
+@import "./sass/menu";
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
 
 body{
-    background-color: #1a1a1a;
-    color: wheat;
+    background-color: $background;
+    color: $texto;
 }
+
+
