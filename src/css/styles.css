@@ -12035,7 +12035,7 @@ textarea.form-control-lg {
 .nav-bar {
   width: 100%;
   padding: 4px 5%;
-  background-color: rgba(6, 9, 15, 0.4);
+  background-color: #081b29;
   -webkit-backdrop-filter: blur(6px);
           backdrop-filter: blur(6px);
   position: fixed;
@@ -12138,4 +12138,30 @@ body {
 
 .conteudo {
   max-width: 50%;
+}
+
+.icons {
+  text-align: center;
+}
+
+.linkedin {
+  width: 24px;
+  margin-right: 16px;
+  margin-top: 8px;
+}
+
+.email {
+  width: 24px;
+  margin-top: 8px;
+}
+
+.whatsapp {
+  width: 24px;
+  margin-right: 16px;
+  margin-top: 8px;
+}
+
+.title {
+  font-size: 11px;
+  margin-top: 16px;
 }/*# sourceMappingURL=styles.css.map */

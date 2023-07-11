@@ -8,7 +8,7 @@ const Home = () => {
         <>
 
                 <Hero/>
-                <h1>HOME.JS</h1>
+              
         </>
     )
 }
