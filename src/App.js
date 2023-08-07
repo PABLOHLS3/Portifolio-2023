@@ -1,15 +1,15 @@
-import Footer from "./pages/Footer";
+import Contato from "./pages/Educação";
 import Header from "./pages/Header";
-import Hero from "./pages/Hero";
-import Home from "./pages/Home";
-
+import Home from "./pages/Home/Index";
+import Sobremim from "./pages/Sobre mim";
 
 function App() {
   return (
     <div className="App">
-        <Header/>
-        <Home/>
-        <Footer/>      
+
+      <Header/>
+      <Sobremim/>
+            
     </div>
   );
 }

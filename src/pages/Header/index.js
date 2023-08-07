@@ -1,32 +1,36 @@
-import { Container } from "react-bootstrap"
-import logo from "../../svg/LOGO.svg"
+import linkedin from "../../svg/linkedin-svgrepo-com (1) 1.svg"
 
 
 const Header = () => {
-    return (
-        <>
-                <div className="nav-bar ">
-                    <div className=" menu-home container-fluid ">
-                        
-                        <div className="logo">
-                            <img src={logo}></img>
-                        </div>
+    return(
+        <nav>
 
-                    <ul>
-                        <li ><a className="home" href="">Home</a></li>
-                        <li><a href="">Sobre mim</a></li>
-                        <li><a href="">Qualificações</a></li>
-                        <li><a href="">Projetos</a></li>
-                        <li><a href="">Contato</a></li>
-                    </ul>
+
+         <div className="logo"> <h2>LOGO</h2></div>
+
+            <div className="links">
+
+                <ul>
+                    <div className="all-home">
+                        <li > <a className="nav" href="#">Home</a>  </li>
+                        <div className="line"></div>
                     </div>
-                        
-                        
-                    
-                    
-                </div>
-        </>
+                        <li> <a href="#">Sobre mim</a>  </li>
+                        <li> <a href="#">Qualificações </a>  </li>
+                        <li> <a href="#">Educação</a>  </li>
+                        <li> <a href="#">Contato</a>  </li>
+
+                </ul>
+
+            </div>
+
+            <div className="icon-linkedin">
+                <a href="#"><img src={linkedin}></img></a>
+            </div>
+
+        </nav>
     )
+
 }
 
 export default Header

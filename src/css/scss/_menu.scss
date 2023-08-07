@@ -1,0 +1,72 @@
+nav{
+    background-color: #000;
+    z-index: 999999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 5%;
+    // position: fixed;
+    // top: 0;
+    // width: 100%;
+    
+
+
+
+
+    .logo{
+       
+       
+        
+    }
+
+    .icon-linkedin{
+       
+       
+        
+    }
+    
+
+   
+   
+}
+
+
+ul{
+    display: flex;
+    align-items: center;
+
+    li{
+        list-style: none;
+}
+
+    a{
+        text-decoration: none ;
+        color: white;
+        margin-right: 32px;
+        font-weight: 400;
+        transition: 0.9s ease;
+        margin-top: 15px;
+       
+
+        &:hover{
+            color:#0055D4;
+        }
+    }
+}
+
+
+.line{
+    width: 51px;
+    height: 3px;
+    background-color: white;
+}
+
+.nav{
+    color: #0055D4;
+    font-weight: 600;
+    
+}
+
+.all-home{
+    margin-bottom: 10px;
+}
